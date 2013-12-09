@@ -3,6 +3,5 @@ layout: page
 title: Projects
 ---
 
-Some of the projects I am currently contributing to:
-
-<a href="/projects/django">Django</a>
+Sorry, I have no time to work on this but at least you could see my [github
+profile](https://github.com/unaizalakain/)
