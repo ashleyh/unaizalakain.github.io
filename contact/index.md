@@ -5,5 +5,5 @@ title: Contact
 
 You can reach me here:
 
-- Mail: contact @t unaizalakain d.t info
+- Mail: <contact@unaizalakain.info>
 - GitHub: <https://github.com/unaizalakain/>
