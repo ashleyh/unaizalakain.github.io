@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
 pygments: true
 redcarpet:
-    extensions: ["tables", "autolink"]
+    extensions: ["tables", "autolink", "fenced_code_blocks", "superscript", "quote", "footnotes"]
 
 
 # Themes are encouraged to use these universal variables
