@@ -7,8 +7,8 @@ title: Projects
 
 Although most of my work is available on
 [github](https://github.com/unaizalakain/) or
-[bitbucket](https://bitbucket.org/unaizalakain), here are some of the most
-meaningful projects I have worked on:
+[bitbucket](https://bitbucket.org/unaizalakain), here are some interesting
+projects I have worked on:
 
 - [Django]({{ HOME_PATH }}projects/django/): a web framework for perfectionists
   with deadlines.
