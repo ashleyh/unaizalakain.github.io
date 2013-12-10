@@ -5,6 +5,6 @@ title: Info
 
 You can reach me here:
 
-- Mail: <contact@unaizalakain.info>
+- Mail: <unai@gisa-elkartea.org> | <contact@unaizalakain.info>
 - GitHub: <https://github.com/unaizalakain/>
 - Bitbucket: <https://bitbucket.org/unaizalakain/>
