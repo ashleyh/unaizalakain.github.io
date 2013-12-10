@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Info
 ---
 
 You can reach me here:
