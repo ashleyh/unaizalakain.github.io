@@ -3,6 +3,17 @@ layout: page
 title: Django
 ---
 
+I began contributing to Django recently. First picking up old tickets and
+updating their patches, then trying to resolve some long running tickets,
+submitting my own solutions to more recent tickets afterwards and finally
+reviewing the pull requests from other.
+
+Contributing to Django is definitively an interesting challenge. The best part
+of it are the reviews by other developers of the patches I submit.
+
+Here are some tickets that, for one reason or another, sounded interesting to
+me. This is also a personal list to help me keeping track of them.
+
 
 Issues I own
 ============
