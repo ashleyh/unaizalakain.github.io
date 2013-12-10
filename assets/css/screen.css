@@ -260,7 +260,7 @@ body#Kith #header a.kith
 /* @end */
 
 /* @group Sections */
-.section {
+dl {
 	font-size: 87.5%;
 	line-height: 1.43em;
 	margin-bottom: 1.43em;
@@ -268,7 +268,7 @@ body#Kith #header a.kith
 	margin-left: 7.5em;
 	padding-right: 3em;
 }
-.section h1 {
+dt {
 	font-family: Palatino, georgia, serif;
 	font-size: 100%;
 	line-height: 1.43em;
@@ -279,7 +279,7 @@ body#Kith #header a.kith
 	font-weight: bold;
 	font-variant: small-caps;
 }
-.section p { margin-bottom: 1.43em; }
+dd { margin-bottom: 1.43em; }
 
 /* @end */
 
