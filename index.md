@@ -4,6 +4,7 @@ title: Hi there!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
+{% include twitter %}
 
 
 You unexpectedly arrived at my home, welcome!

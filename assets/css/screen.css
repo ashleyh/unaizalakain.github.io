@@ -228,10 +228,13 @@ ul.compact li a {
 #header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
 
 /* @group Twitter */
-#twitter_update_list { display: inline; margin: 0; }
-#twitter_update_list li { display: inline; margin: 0;}
-.twitter-title { display: inline; margin: 0; }
-.twitter-title a { display: inline; }
+#tweets {
+    float: right;
+    width: 40%;
+    margin: 0 0 1em 1em;
+    min-height: 15em;
+    font-size: 0.9em;
+};
 /* @end */
 
 body#Work #header a.work,
