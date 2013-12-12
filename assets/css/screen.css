@@ -232,8 +232,10 @@ ul.compact li a {
     float: right;
     width: 40%;
     margin: 0 0 1em 1em;
-    min-height: 15em;
+    padding: 1em;
+    min-height: 20em;
     font-size: 0.8em;
+    background-color: #f9f9f9;
 };
 /* @end */
 
