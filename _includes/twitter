@@ -1,5 +1,4 @@
 <div id="tweets">
-    <h2>Currently...</h2>
 </div>
 
 <script src="{{ ASSET_PATH }}js/jquery.js" type="text/javascript">
