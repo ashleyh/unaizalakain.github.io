@@ -230,12 +230,13 @@ ul.compact li a {
 /* @group Twitter */
 #tweets {
     margin-bottom: 2em;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 #tweets ul { display: inline; padding: 0;}
 #tweets li {
     display: inline-block;
     width: 47%;
+    vertical-align: top;
     padding: 0 0 0 1em;
     border-left: .1em solid black;
 }

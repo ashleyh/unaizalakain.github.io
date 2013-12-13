@@ -1,5 +1,5 @@
 ---
-layout: twitter_page
+layout: page
 title: Hi there!
 tagline: Supporting tagline
 ---
@@ -17,5 +17,6 @@ After several gap years, I finally decided to continue studying. Although I am
 currently living in the Basque Country, I will move to Scotland next year to
 attend my software engineering classes.
 
-*I'm currently quite busy so I'm unable to spend some time working on this
-page, sorry.*
+##### Latest news
+
+{% include twitter %}
