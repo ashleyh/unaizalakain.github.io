@@ -228,23 +228,23 @@ ul.compact li a {
 #header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
 
 /* @group Twitter */
-#tweets {
+#latest {
     margin-bottom: 2em;
     font-size: 0.8em;
 }
-#tweets ul { display: inline; padding: 0;}
-#tweets li {
+#latest ul { display: inline; padding: 0;}
+#latest li {
     display: inline-block;
     width: 47%;
     vertical-align: top;
     padding: 0 0 0 1em;
     border-left: .1em solid black;
 }
-#tweets li:first-child {
+#latest li:first-child {
     padding: 0 1em 0 0;
     border: 0;
 }
-#tweets p {
+#latest p {
     margin: 0;
 }
 /* @end */

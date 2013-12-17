@@ -1,9 +1,0 @@
-<div id="tweets">
-</div>
-
-<script src="{{ ASSET_PATH }}js/jquery.js" type="text/javascript">
-</script>
-<script src="{{ ASSET_PATH }}js/tweetable.jquery.js" type="text/javascript">
-</script>
-<script src="{{ ASSET_PATH }}js/twitter.js" type="text/javascript">
-</script>

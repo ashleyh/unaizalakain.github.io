@@ -19,4 +19,4 @@ attend my software engineering classes.
 
 ##### Latest news
 
-{% include twitter %}
+{% include latest %}

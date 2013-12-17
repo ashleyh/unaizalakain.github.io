@@ -1,0 +1,9 @@
+<div id="latest">
+</div>
+
+<script src="{{ ASSET_PATH }}js/jquery.js" type="text/javascript">
+</script>
+<script src="{{ ASSET_PATH }}js/jquery.lifestream.js" type="text/javascript">
+</script>
+<script src="{{ ASSET_PATH }}js/latest.js" type="text/javascript">
+</script>
