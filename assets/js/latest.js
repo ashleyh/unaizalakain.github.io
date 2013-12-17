@@ -22,10 +22,9 @@ $(document).ready(function() {
         feedloaded: function(){
             count++;
             if( count === list.length){
-                input.sort(function(a, b) {
+                input.find('li').sort(function(a, b) {
                     return $(b).data("time") - $(a).data("time");
-                });
-                input.find('li').each(function() {
+                }).each(function() {
                     var element = $(this);
                     var date = jQuery.timeago(new Date(element.data("time")));
                     if (output.children('dt:contains("'+date+'")').length == 0) {
@@ -34,6 +33,7 @@ $(document).ready(function() {
                     output.append('<dd>'+element.html()+'</dd>');
                 });
             };
+        input.remove();
         },
         limit: 50,
         list: list
