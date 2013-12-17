@@ -16,7 +16,3 @@ develop and collaborate on very interesting software projects.
 After several gap years, I finally decided to continue studying. Although I am
 currently living in the Basque Country, I will move to Scotland next year to
 attend my software engineering classes.
-
-##### Latest news
-
-{% include latest %}

@@ -227,28 +227,6 @@ ul.compact li a {
 #header:hover .byline a { color: silver; text-shadow: none; }
 #header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
 
-/* @group Twitter */
-#latest {
-    margin-bottom: 2em;
-    font-size: 0.8em;
-}
-#latest ul { display: inline; padding: 0;}
-#latest li {
-    display: inline-block;
-    width: 47%;
-    vertical-align: top;
-    padding: 0 0 0 1em;
-    border-left: .1em solid black;
-}
-#latest li:first-child {
-    padding: 0 1em 0 0;
-    border: 0;
-}
-#latest p {
-    margin: 0;
-}
-/* @end */
-
 body#Work #header a.work,
 body#Home #header a.home,
 body#Play #header a.play,
