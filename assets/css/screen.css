@@ -525,3 +525,10 @@ img.maruku-png { }
 	color:#FFF;
 }
 
+#activities ul.commits {
+    margin: 0;
+    font-size: .9em;
+}
+#activities ul.commits li {
+    margin-left: 1em;
+}

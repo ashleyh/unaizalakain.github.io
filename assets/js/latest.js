@@ -1,7 +1,17 @@
+githubPushTemplate = 'pushed to <a href="https://github.com/${status.repo.name}' +
+        '/tree/${status.payload.ref}">${status.payload.ref}</a> at ' +
+        '<a href="https://github.com/${status.repo.name}">' +
+        '${status.repo.name}</a>' +
+        '<ul class="commits">{%each(i, commit) $.isArray(status.payload.commits) ? status.payload.commits : [status.payload.commits]%}' +
+        '    <li><a href="https://github.com/${status.repo.name}/commit/${commit.sha}">${commit.message}</a></li>' +
+        '{%/each%}</ul>'
 list = [
     {
         service: "github",
-        user: "unaizalakain"
+        user: "unaizalakain",
+        template: {
+            pushEvent: githubPushTemplate
+        }
     },
     {
         service: "twitter",
@@ -22,7 +32,7 @@ $(document).ready(function() {
         feedloaded: function(){
             count++;
             if( count === list.length){
-                input.find('li').sort(function(a, b) {
+                input.children('ul').children('li').sort(function(a, b) {
                     return $(b).data("time") - $(a).data("time");
                 }).each(function() {
                     var element = $(this);
