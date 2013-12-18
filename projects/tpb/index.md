@@ -10,9 +10,10 @@ Among other things, it features search, recent and top torrent listing, filter
 and order concatenation on those listings, multipage support and per torrent
 description and files retrieval.
 
-I found this software at an early stage of development so I was able to make
-several big contributions like filter concatenation, categories and orders
-support, multipage support and files and info retrieval.
+I found this software developed by [Karan Goel](https://github.com/karan) at an
+early stage of development so I was able to make several big contributions like
+filter concatenation, categories and orders support, multipage support and
+files and info retrieval.
 
 Some example of use:
 

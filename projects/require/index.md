@@ -11,5 +11,5 @@ It features asset optimization using the ``r.js`` optimizer, standalone module
 compilation using [almond.js](https://github.com/jrburke/almond) and
 compatibility with any Django staticfiles storage backend.
 
-I mainly helped with better environment discovery and documentation
-improvements.
+I mainly helped [Dave Hall](https://github.com/etianen) with better environment
+discovery and documentation improvements.

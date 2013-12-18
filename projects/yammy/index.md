@@ -3,13 +3,14 @@ layout: page
 title: Yammy
 ---
 
-[Yammy](https://bitbucket.org/quasinerd/yammy) is not a template engine.
+[Yammy](https://bitbucket.org/leporo/yammy) is not a template engine.
 Instead, it strips unnecessary parts of HTML and opts for an indentation based
 nesting.
 
 I found this project when it was already quite mature. I worked on Python 3
 compatibility, documentation improvement, better Django loaders support and a
-better CLI.
+better CLI. I really enjoyed working together with [Vlad
+Glushchuk](https://bitbucket.org/leporo) on this.
 
 This is Yammy:
 
