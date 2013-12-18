@@ -3,7 +3,11 @@ layout: page
 title: Django
 ---
 
-[Django](https://djangoproject.com)
+[Django](https://djangoproject.com) is a high-level Python Web framework that
+encourages rapid development and clean, pragmatic design. It features an
+object-relational mapper, an automatic admin interface, elegant URL design, a
+built-in template system, a cache system and internationalization, among other
+things.
 
 I began contributing to Django recently. First picking up old tickets and
 updating their patches, then trying to resolve some long running tickets,
