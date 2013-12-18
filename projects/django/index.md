@@ -47,6 +47,8 @@ Pending for review
     HttpRequest.get_full_path does not escape # sign in the url
 :[#19869](https://code.djangoproject.com/ticket/19869/)
     Make changing the active language inside `LiveTestServerCase` possible
+:[#21598](https://code.djangoproject.com/ticket/21598/)
+    Cleanup template loader overrides in tests
 
 
 Made it into master
