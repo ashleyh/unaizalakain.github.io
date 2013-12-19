@@ -14,12 +14,12 @@ Motivation
 
 The motivation behind SRTI is simple: we want the users to be able to overwrite
 certain blocks of other templates without the need of copy-pasting the original
-template all over again. This would also to make software updates smoother.
+template all over again. This would also make software updates smoother.
 
 The most likely candidate templates to be overridden are Django's builtin admin
-(this would turn its ad-hoc overriding system useless) and third apps which
+(this would make its ad-hoc overriding system useless) and third-party apps which
 come with default templates. Both could be overridden from a template residing
-in some ``TEMPLATE_DIRS`` or from within another application.
+in one of the ``TEMPLATE_DIRS`` or from within another application.
 
 Resources
 ---------
@@ -35,7 +35,7 @@ Goals
 
 - Allow SRTI inside loaders.
 - Allow SRTI across loaders.
-- Get with a consistent way of handling and describing SRTI.
+- Get a consistent way of handling and describing SRTI.
 - Avoid recursion.
 
 Description
@@ -48,11 +48,11 @@ another, all the functions that get a path and return a template rely on
 template is extended from within another template.
 
 This ``find_template`` function is responsible for iterating over the
-configured loaders, ask for a particular template and return the first template
-it comes across, raising a ``TemplateNotFound`` exception otherwise.
+configured loaders, asking for a particular template. It returns the first template
+it comes across, or raises a ``TemplateNotFound`` exception if there are none.
 
 Each of those default loaders (leaving the cache loader aside for the moment)
-has a list of places to look for for a particular template. In the case of the
+has a list of places to look for a particular template. In the case of the
 app loader, those places will be the different apps specified in
 ``INSTALLED_APPS`` and, in the case of the filesystem loader, those places will
 be the system directories specified in the ``TEMPLATE_DIRS`` setting.
@@ -76,7 +76,7 @@ some templates with the same name:
     β = ⟨ D, E ⟩
 
 Currently, the A template would always be the returned one. Our desired goal is
-to return templates consecutively so that A → B → C → D → E.
+to return templates consecutively: in this case, A → B → C → D → E.
 
 Problems and solutions
 ----------------------
@@ -89,7 +89,7 @@ know what template to return next. That could be done by:
 - Passing on the current template that makes the extension.
 
 When extending a template, the call to ``find_template`` is made by the
-extension tag itself. This extension tag has no mean of knowing what templates
+extension tag itself. This extension tag has no means of knowing which templates
 have been rendered until now so we can't. The only possible way around this is
 to store the already rendered templates in some kind of global variable and
 that doesn't seem a good idea.
