@@ -341,8 +341,8 @@ pre:hover {
 code {
 	font-size: 1em;
 	background-color: #f7f7ff;
-	line-height: 1.4em;
 }
+p > code { font-size: .8em; }
 pre > code {
 	background-color: transparent;
 }
