@@ -533,3 +533,7 @@ img.maruku-png { }
 #activities ul.commits li {
     margin-left: 1em;
 }
+.article h2:first-child { margin: 0; }
+.article h2 { margin: 1em 0 0 0; }
+.article p { margin: 0; }
+.article h2 a { color: black; }
